@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SignUp Form</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="assets/images/odin-lined.png" type="image/png">
+    <script src="script.js" defer></script>
+</head>
+
+<body>
+    <div class="container">
+        <div class="sidebar__wrapper">
+            <figure class="sidebar__img">
+                <img src="assets/images/odin-lined.png" alt="odin logo">
+            </figure>
+            <div class="attribution">
+                Photo by <a
+                    href="https://unsplash.com/@carlesrgm?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Carles
+                    Rabada</a> on <a
+                    href="https://unsplash.com/photos/DD1fSz2HF1s?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+            </div>
+        </div>
+        <form action="#" method="post" class="form">
+            <div class="form__wrapper">
+                <header>
+                    <h1>sign up form</h1>
+                </header>
+                <div>
+                    <div class="fname__wrapper">
+                        <label for="fname">first name</label>
+                        <input type="text" name="fname" id="fname" required>
+                    </div>
+
+                    <div class="lname__wrapper">
+                        <label for="lname">last name</label>
+                        <input type="text" name="lname" id="lname" required>
+                    </div>
+                </div>
+
+                <div>
+                    <div class="email__wrapper">
+                        <label for="email">email</label>
+                        <input type="text" name="email" id="email">
+                        <span class="email__err"></span>
+
+                    </div>
+                    <div class="number__wrapper">
+                        <label for="phone_number">phone number</label>
+                        <input type="text" name="phone_number" id="phone_number">
+                    </div>
+                </div>
+
+                <div>
+                    <div class="password__wrapper">
+                        <label for="password">password</label>
+                        <input type="password" name="password" id="password" required>
+                        <span class="password__err"></span>
+                    </div>
+                    <div class="confirm__wrapper">
+                        <label for="confirm_password">confirm password</label>
+                        <input type="password" name="confirm_password" id="confirm_password" required>
+                    </div>
+                </div>
+            </div>
+            <div class="form__end">
+                <button type="submit">create account</button>
+                <p>Already have an account&quest; <a href="#">Log in</a></p>
+            </div>
+        </form>
+    </div>
+</body>
+
+</html>
